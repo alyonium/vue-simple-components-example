@@ -22,4 +22,18 @@
         </div>
     </div>
 </template>
+<script>
+    import Header from './Header.vue'
+    import Footer from './Footer.vue'
+    import LeftSide from './LeftSide.vue'
+    import RightSide from './RightSide.vue'
 
+    export default {
+        components: {
+            'header-row': Header,
+            'footer-row': Footer,
+            'left-side': LeftSide,
+            'right-side': RightSide,
+        }
+    }
+</script>
